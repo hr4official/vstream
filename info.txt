@@ -1,0 +1,6 @@
+Pre-requisites for python package upload
+1-pypi account
+2-github account(if you don't have not an issue but must recommended for better understandability )
+3-python3 setup.py sdist bdist_wheel(create tar file for pypi upload)
+4-install twine(for pypi upload)
+5-twine upload dist/* (to upload all files from dist folder to pypi)
